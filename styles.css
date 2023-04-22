@@ -63,3 +63,12 @@ body {
     font-size: 20px;
     margin-top: 1.5em;
 }
+
+#reviews .review-block {
+    margin-top: 2em;
+    border-style:solid;
+}
+
+#reviews .review-style {
+    margin-top: 2em;
+}

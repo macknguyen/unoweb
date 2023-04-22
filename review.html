@@ -24,7 +24,22 @@
 
         <!-- Body Sections -->
         <div>
-            Review page
+            <div id="reviews">
+                
+            </div>
+            <border-style:solid;>
+            <form onsubmit="return false">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" value=""><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date" value=""><br><br>
+                <label for="rating">Rating:</label><br>
+                <input type="number" id="rating" name="rating" value=""><br><br>
+                <label for="review">Review:</label><br>
+                <input type="text" id="review" name="review" value=""><br><br>
+                <button onclick="addReview()">ADD NEW REVIEW</button>
+            </form>
+            
         </div>
 
         <!-- Footer -->
@@ -32,5 +47,7 @@
 
         </div>
     </div>
+
+    <script type="text/javascript" src="data.js"></script>
 </body>
 </html>
